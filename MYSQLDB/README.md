@@ -61,6 +61,12 @@ Create service for MySQL
 
       kubectl create -f mysql-service.yaml
       
+      
+Store MySQL root password in secret File.
+AND 
+Store host & port in configmap File . 
+
+      
 
 
 
