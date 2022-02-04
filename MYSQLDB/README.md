@@ -25,12 +25,33 @@ Before going deep dive into deployment architecture let's first understand this 
       
 SEPTS :- 
  Clone github repository
-  git clone 
+  git clone https://github.com/PatilDurga/Kubernetes.git
 
 Go to session_1 directory
   cd ./kubernetes/MYSQLDB/
+
+Create demo namespace
+  kubectl create namespace demo
   
- 
+Set current namespace to demo
+   kubectl config set-context --current --namespace=demo
+   
+Create secret 
+    kubectl create -f mysql-secret.yaml 
+    
+Create configmap
+     kubectl create -f mysql-configmap.yaml
+     
+Create deployment for MySQL
+     kubectl create -f mysql-deployment.yaml
+
+     kubectl get pods --watch
+
+Exit when pod goes into running state
+  
+Create service for MySQL
+      kubectl create -f mysql-service.yaml
+      
 
 
 
