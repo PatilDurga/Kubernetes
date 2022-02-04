@@ -12,7 +12,7 @@
 Before going deep dive into deployment architecture let's first understand this concepts.
 
     Deployment :-
-      Deployments represent a set of multiple, identical Pods with no unique identities. Learn more here
+      Deployments represent a set of multiple, identical Pods with no unique identities. Learn more [here] (https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
     Service :-
       Services are use to group pods together using labels & selectors. Learn more here
