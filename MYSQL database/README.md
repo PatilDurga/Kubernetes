@@ -12,16 +12,16 @@
 Before going deep dive into deployment architecture let's first understand this concepts.
 
     Deployment :-
-      Deployments represent a set of multiple, identical Pods with no unique identities. Learn more [here](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+      Deployments represent a set of multiple, identical Pods with no unique identities. 
 
     Service :-
-      Services are use to group pods together using labels & selectors. Learn more here
+      Services are use to group pods together using labels & selectors. 
 
     Secret :- 
-      Secrets are used to store confidential attributes such as password, API key etc. Learn more here
+      Secrets are used to store confidential attributes such as password, API key etc.
 
     ConfigMap :- 
-      ConfigMaps are used to store configuration parameters such hostname, port etc. Learn more here
+      ConfigMaps are used to store configuration parameters such hostname, port etc.
       
   
   
