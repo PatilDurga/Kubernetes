@@ -1,5 +1,6 @@
 
- Install the MYSQL database on kubernetes using kubernetes artifact files  i.e. 
+ # Install the MYSQL database on kubernetes using kubernetes artifact files  
+ i.e. 
  
     mysql-deployment.yaml 
 
@@ -11,19 +12,19 @@
    
 Before going deep dive into deployment architecture let's first understand this concepts.
 
-    Deployment :-
+ # Deployment :-
       Deployments represent a set of multiple, identical Pods with no unique identities. 
 
-    Service :-
+# Service :-
       Services are use to group pods together using labels & selectors. 
 
-    Secret :- 
+# Secret :- 
       Secrets are used to store confidential attributes such as password, API key etc.
 
-    ConfigMap :- 
+#  ConfigMap :- 
       ConfigMaps are used to store configuration parameters such hostname, port etc.
       
-SEPTS :- 
+# SEPTS :- 
  
 Clone github repository
 
