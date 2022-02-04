@@ -24,25 +24,33 @@ Before going deep dive into deployment architecture let's first understand this 
       ConfigMaps are used to store configuration parameters such hostname, port etc.
       
 SEPTS :- 
- Clone github repository
-  git clone https://github.com/PatilDurga/Kubernetes.git
+ 
+Clone github repository
+
+       git clone https://github.com/PatilDurga/Kubernetes.git
 
 Go to session_1 directory
-  cd ./kubernetes/MYSQLDB/
+
+     cd ./kubernetes/MYSQLDB/
 
 Create demo namespace
-  kubectl create namespace demo
+
+    kubectl create namespace demo
   
 Set current namespace to demo
-   kubectl config set-context --current --namespace=demo
+
+     kubectl config set-context --current --namespace=demo
    
 Create secret 
-    kubectl create -f mysql-secret.yaml 
+
+      kubectl create -f mysql-secret.yaml 
     
 Create configmap
+
      kubectl create -f mysql-configmap.yaml
      
 Create deployment for MySQL
+
      kubectl create -f mysql-deployment.yaml
 
      kubectl get pods --watch
@@ -50,6 +58,7 @@ Create deployment for MySQL
 Exit when pod goes into running state
   
 Create service for MySQL
+
       kubectl create -f mysql-service.yaml
       
 
