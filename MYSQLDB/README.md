@@ -63,7 +63,9 @@ Create service for MySQL
       
       
 Store MySQL root password in secret File.
-AND 
+
+    AND 
+    
 Store host & port in configmap File . 
 
       
