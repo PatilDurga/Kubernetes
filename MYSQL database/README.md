@@ -23,7 +23,8 @@ Before going deep dive into deployment architecture let's first understand this 
     ConfigMap :- 
       ConfigMaps are used to store configuration parameters such hostname, port etc. Learn more here
       
-     
+  
+  
 
 
 
