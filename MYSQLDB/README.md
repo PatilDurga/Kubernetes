@@ -23,8 +23,15 @@ Before going deep dive into deployment architecture let's first understand this 
     ConfigMap :- 
       ConfigMaps are used to store configuration parameters such hostname, port etc.
       
+SEPTS :- 
+ Clone github repository
+  git clone 
+
+Go to session_1 directory
+  cd ./kubernetes/MYSQLDB/
   
-  
+ 
+
 
 
 
